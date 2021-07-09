@@ -6,6 +6,9 @@ public:
  return v1[0] < v2[0];
 }
     int findLongestChain(vector<vector<int>>& arr) {
+        
+         ios_base::sync_with_stdio(false);
+         cin.tie(NULL);
         // using the concept of LIS(longest common subsequence )
         int n = arr.size();
         sort(arr.begin(),arr.end(),sortcol);
