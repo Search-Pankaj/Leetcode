@@ -1,8 +1,8 @@
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
-        unsigned long long a = 0;
-        unsigned long long b = 0;
+        unsigned int a = 0;
+        unsigned int b = 0;
         for(int i=0,j=0 ; ( i< version1.length() || j< version2.length() ); ){
             while( i< version1.length()  && version1[i] != '.' )
             {
